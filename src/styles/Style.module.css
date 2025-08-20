@@ -1,0 +1,178 @@
+/* input */
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    width: 100%;
+    margin: 16px 0;
+    padding: 16px 24px;
+    font-size: 1rem;
+    color: var(--fg-color);
+    cursor: pointer;
+}
+
+.formHeader p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.formInput {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    width: 100%;
+    padding: 24px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.formRow {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.formRow input[type="text"],
+.formRow input[type="email"],
+.formRow input[type="date"] {
+    background-color: #fff;
+    border: 1px solid var(--border-color);
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.formRow label {
+    margin-bottom: 8px;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.formRow .dateWorked {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.icon {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.dateWorkedInput p {
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.dateWorkedInput label {
+    font-size: .8rem;
+}
+
+
+/* preview */
+.preview {
+    width: 210mm;
+    height: 297mm;
+    background: #fff;
+    padding: 24px 32px;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px rgba(0 ,0 ,0 ,.4);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.headed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: var(--fg-color);
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+.headed h1 {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.headed .contact {  
+    display: flex;  
+    flex-direction: column;
+    font-size: 0.9rem;
+    gap: 4px;
+}
+
+.education,
+.practical {
+    padding: 12px 0;
+    border-top: 1px solid var(--border-color);
+}
+
+.education h2,
+.practical h2 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.educationData,
+.practicalData {
+    font-size: 1rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.btns button {
+    font-size: .9rem;
+    padding: 8px;
+    border: none;
+    background: var(--fg-color);
+    color: var(--bg-color);
+    font-weight: 800;
+    cursor: pointer;
+    
+}
+
+.leftContainer {
+    width: 30%;
+    max-width: 480px;
+}
+
+.rightContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+.App {
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
